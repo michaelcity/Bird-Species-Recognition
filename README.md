@@ -26,12 +26,14 @@ Furthermore, I decided filter out some of data set dataset, because the size was
 The bird image need to normalize by using data normalization(224px x 224px), that is an important pre-processing step of the images. It ensures that each input comes from a standard distribution. The outcome is makes the model train faster. By using Convolutional Network for Classification and Detection, it is suitable for feature learning automatically, is good to find the feather in the image on each level. Finally, the layer uses the generated feature for classification.
 Benchmark Model
  
-![image](https://neurohive.io/en/popular-networks/vgg16/)
+ ![image](https://github.com/michaelcity/Bird-Species-Recognition/blob/master/img/kaggle-caputre.PNG)
+ 
 Figure 2 Pre-trained model information form https://keras.io/api/applications/
 The Figure 1 is about deep learning models that are made available alongside pre-trained weights from keras. By using the pre-trained model, the accuracy of image classification is up to 70%, VGG16 will be used for this project because of the dataset image size was 224x224 which suitable for VGG16 input.
 
 
-![image](https://neurohive.io/wp-content/uploads/2018/11/vgg16-1-e1542731207177.png)
+ ![image](https://neurohive.io/wp-content/uploads/2018/11/vgg16-1-e1542731207177.png)
+ 
 Figure 3 VGG16 image from https://neurohive.io/en/popular-networks/vgg16/
 
 The model achieves 92.7% top-5 test accuracy in ImageNet, which is a dataset of over 14 million images belonging to 1000 classes. It makes the improvement over AlexNet by replacing large kernel-sized filters with multiple 3×3 kernel-sized filters one after another.
