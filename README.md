@@ -29,6 +29,7 @@ Benchmark Model
  ![image](https://github.com/michaelcity/Bird-Species-Recognition/blob/master/img/kaggle-caputre.PNG)
  
 Figure 2 Pre-trained model information form https://keras.io/api/applications/
+
 The Figure 1 is about deep learning models that are made available alongside pre-trained weights from keras. By using the pre-trained model, the accuracy of image classification is up to 70%, VGG16 will be used for this project because of the dataset image size was 224x224 which suitable for VGG16 input.
 
 
