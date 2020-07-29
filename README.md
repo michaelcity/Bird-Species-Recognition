@@ -1,11 +1,12 @@
 # Bird-Species-Recognition
 
 # Domain Background
-___
+
 When I wake up at every morning, I can see the birds standing in front of my windows. Unfortunately, I cannot recognize the species which they belong to. That is my ideal of my project Bird species recognition.  That means the problem is about classification of data with labeled in supervised learning. Supervised learning is the task of learning a function that maps an input to an output. It infers a function from labelled training data consisting of a set of training dataset.
 
 
 # Problem Statement
+
 The project is to create a Convolutional Neural Networks (CNN) from scratch and leverage the image classification techniques This model can be used as part of a mobile or web app for the real world and user-provided images. Given an image to the model, it determines if a bird is present and returns the estimated breed. To achieve the goal,  the task involved the following step:
 1)	download the data set and 
 2)	detect the bird object from per trained model.
@@ -14,7 +15,9 @@ The project is to create a Convolutional Neural Networks (CNN) from scratch and 
 
 
 # Datasets and Input
-___
+
+![image](https://github.com/michaelcity/Bird-Species-Recognition/blob/master/img/birds.png)
+
 By using provide Bird dataset from Kaggle(224x224x3 in jpg format), it provided 30168 training images including 1125 test images(5 per species) and 1125 validation images(5 per species. Images for each species are contained in a separate sub director and all the files were numbered sequential. For example, AMERICAN GOLDFINCH/001.jpg , AMERICAN GOLDFINCH/003.jpg etc.
  
 
@@ -23,6 +26,7 @@ Furthermore, I decided filter out some of data set dataset, because the size was
 
 
 # Solution Statement
+
 The bird image need to normalize by using data normalization(224px x 224px), that is an important pre-processing step of the images. It ensures that each input comes from a standard distribution. The outcome is makes the model train faster. By using Convolutional Network for Classification and Detection, it is suitable for feature learning automatically, is good to find the feather in the image on each level. Finally, the layer uses the generated feature for classification.
 Benchmark Model
  
