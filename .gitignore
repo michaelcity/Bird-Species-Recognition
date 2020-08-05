@@ -1,3 +1,5 @@
 *.jpg
 534640_1367194_bundle_archive.zip
 Untitled.ipynb
+model_transfer.pt
+model_scratch.pt
