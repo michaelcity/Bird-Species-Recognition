@@ -1,29 +1,17 @@
-# Bird-Species-Recognition
+# Project Overview
 
-# Domain Background
+The project is to create a Convolutional Neural Networks (CNN) from scratch and leverage the image classification techniques. Given an image of a bird, the model will identify an estimate of the breed. If supplied an image of a non-bird, the code will identify the resembling bird breed. This model can be used as part of a mobile or web app for the real world and user-provided images. That means the problem is about classification of data with labeled in supervised learning. Supervised learning is the task of learning a function that maps an input to an output. It infers a function from labelled training data consisting of a set of training dataset.
 
-When I wake up at every morning, I can see the birds standing in front of my windows. Unfortunately, I cannot recognize the species which they belong to. That is my ideal of my project Bird species recognition.  That means the problem is about classification of data with labeled in supervised learning. Supervised learning is the task of learning a function that maps an input to an output. It infers a function from labelled training data consisting of a set of training dataset.
-
-
-# Problem Statement
-
-The project is to create a Convolutional Neural Networks (CNN) from scratch and leverage the image classification techniques This model can be used as part of a mobile or web app for the real world and user-provided images. Given an image to the model, it determines if a bird is present and returns the estimated breed. To achieve the goal,  the task involved the following step:
-1)	download the data set and 
-2)	detect the bird object from per trained model.
-3)	 To achieve the high accuracy, using the pre trained model to train the dataset is a must.
-4)	Classify the image by input simple image.
+![image](https://github.com/michaelcity/Bird-Species-Recognition/blob/master/img/example1.JPG)
 
 
-# Datasets and Input
+# Project Instructions
 
-![image](https://github.com/michaelcity/Bird-Species-Recognition/blob/master/img/birds.png)
-
-By using provide Bird dataset from Kaggle(224x224x3 in jpg format), it provided 30168 training images including 1125 test images(5 per species) and 1125 validation images(5 per species. Images for each species are contained in a separate sub director and all the files were numbered sequential. For example, AMERICAN GOLDFINCH/001.jpg , AMERICAN GOLDFINCH/003.jpg etc.
+1. Download Bird dataset from [Kaggle](https://www.kaggle.com/gpiosenka/100-bird-species) (224x224x3 in jpg format), it provided 30168 training images including 1125 test images(5 per species) and 1125 validation images(5 per species. Images for each species are contained in a separate sub director and all the files were numbered sequential. For example, AMERICAN GOLDFINCH/001.jpg , AMERICAN GOLDFINCH/003.jpg etc.
  
-
- Also, the dataset contains imbalance gender ratio, 80% of the images are of the male and 20% of the female. Such that, this project will not recognize the gender of the species.
-Furthermore, I decided filter out some of data set dataset, because the size was huge and some of bird species is not appear in my place (Hong Kong). 
-
+2. Make sure you have already installed the necessary Python packages according to the README in the program repository. Also you can run this note in colab or AWS SageMaker Notebook instance. [Anaconda](https://www.anaconda.com/) also recommamd for ML Tool.
+If you running on local machine, you can start the jupyter notebook.
+`jupyter notebook dog_app.ipynb`
 
 # Solution Statement
 
